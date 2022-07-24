@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grouping tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: cornflowerblue;
+      }
+      header {
+        text-align: center;
+        font-size: 2em;
+        font-style: italic;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.541);
+        background-color: aqua;
+        border: 10px inset green;
+
+        padding: 15px;
+        margin: auto;
+      }
+
+      h1:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+      main {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        color: blueviolet;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562);
+        background-color: aquamarine;
+        padding: 15px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 0px 30px;
+      }
+      article {
+        background-color: lightgray;
+        padding: 5px;
+      }
+      article > aside {
+        background-color: rgb(165, 165, 165);
+      }
+      nav {
+        background-color: rgb(102, 102, 102);
+        padding: 3px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.719);
+      }
+
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+        color: aqua;
+      }
+
+      section {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+        text-decoration: double;
+      }
+      footer {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: brown;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 1em;
+        text-align: center;
+        background-color: aqua;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.637);
+        border: 5px solid black;
+        padding: 15px;
+        padding-bottom: 360px;
+        margin: auto;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <section id="noticias">
+        <article>
+          <h2>noticia sobre Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            cumque, inventore natus deleniti non consectetur aperiam eligendi
+            amet error enim deserunt qui? Impedit sed recusandae suscipit maxime
+            ab similique unde?
+          </p>
+          <article>
+            <aside>
+              <p>artigo escrito por mim</p>
+            </aside>
+          </article>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+        quisquam cupiditate repudiandae nulla fuga nemo distinctio dolor
+        eligendi recusandae ut neque earum alias cumque, ipsam magnam, possimus
+        architecto reiciendis praesentium.
+      </p>
+    </footer>
+  </body>
+</html>

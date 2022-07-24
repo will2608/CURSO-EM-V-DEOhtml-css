@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*tudo em html é id = em CSS é #
+tudo html é class = em CSS é .*/
+body{
+  background-image: linear-gradient(to top , rgb(120, 252, 252),rgb(15, 168, 168),rgb(120, 252, 252));
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: rgb(11, 73, 53);
+}
+h1#principal{
+  color: black;
+  font-size: 3em;
+  font-style: italic;
+  text-align: center;
+}
+h2{
+  color: rgb(45, 134, 104);
+}
+.basico{
+  color: rgb(190, 10, 175);
+  font-style: italic;
+  background-color: aqua;
+  border-radius: 20px;
+  width: 200px;
+  padding: 10px;
+  
+
+}
+.intermediario{
+  color: rgb(22, 102, 177);
+}
+.avancado{
+  color: rgb(95, 92, 253);
+}
+
